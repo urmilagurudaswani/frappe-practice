@@ -1,0 +1,9 @@
+2024-09-14 10:37:07,180 ERROR frappe New Exception collected in error log
+Site: Airplane_mode
+Form Dict: {'doctype': 'Airplane_Ticket', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-09-14 10:37:14,399 ERROR frappe New Exception collected in error log
+Site: Airplane_mode
+Form Dict: {'doctype': 'Airplane_Ticket', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-09-14 10:37:41,159 ERROR frappe New Exception collected in error log
+Site: Airplane_mode
+Form Dict: {'doctype': 'Airplane_Ticket', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}

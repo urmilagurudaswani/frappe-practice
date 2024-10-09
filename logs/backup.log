@@ -1,0 +1,1584 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240729_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-07-29 18:00:02.079999
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240729_180001-mysite-site_config_backup.json 127.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240729_180001-mysite-database.sql.gz 221.2KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240730_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-07-30 18:00:01.926572
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240730_180001-mysite-site_config_backup.json 127.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240730_180001-mysite-database.sql.gz 237.8KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240731_000001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-07-31 00:00:02.348749
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240731_000001-mysite-site_config_backup.json 127.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240731_000001-mysite-database.sql.gz 243.1KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240731_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-07-31 12:00:01.610109
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240731_120001-mysite-site_config_backup.json 127.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240731_120001-mysite-database.sql.gz 244.4KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240731_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-07-31 18:00:02.484597
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240731_180002-mysite-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240731_180002-mysite-database.sql.gz 248.8KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240801_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-01 18:00:03.069406
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240801_180002-mysite-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240801_180002-mysite-database.sql.gz 267.9KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240802_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-02 12:00:02.729605
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240802_120002-mysite-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240802_120002-mysite-database.sql.gz 270.3KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240803_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-03 12:00:02.287889
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240803_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240803_120002-mysite-database.sql.gz 273.3KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240803_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-03 18:00:02.473538
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240803_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240803_180002-mysite-database.sql.gz 276.8KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240804_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-04 12:00:01.737984
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240804_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240804_120001-mysite-database.sql.gz 282.9KiB
+Backup for Site mysite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240804_120001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-04 12:00:01.981198
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240804_120001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240804_120001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240804_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-04 18:00:02.321763
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240804_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240804_180002-mysite-database.sql.gz 303.6KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240804_120001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240804_120001-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240804_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-04 18:00:02.575779
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240804_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240804_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240805_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-05 18:00:03.201788
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240805_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240805_180002-mysite-database.sql.gz 319.2KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240804_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240804_120001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240804_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240804_120001-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240805_180003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-05 18:00:04.181513
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240805_180003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240805_180003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240806_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-06 18:00:02.112594
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240806_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240806_180001-mysite-database.sql.gz 337.0KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240805_180003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240805_180003-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240806_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-06 18:00:02.433886
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240806_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240806_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240807_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-07 12:00:01.945968
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240807_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240807_120001-mysite-database.sql.gz 335.4KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240805_180003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240805_180003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240806_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240806_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240807_120001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-07 12:00:02.137398
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240807_120001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240807_120001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240807_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-07 18:00:02.318067
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240807_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240807_180002-mysite-database.sql.gz 336.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240807_120001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240807_120001-task1-database.sql.gz is recent
+File ./task1/private/backups/20240806_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240806_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240807_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-07 18:00:02.483397
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240807_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240807_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240808_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-08 12:00:02.188194
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240808_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240808_120001-mysite-database.sql.gz 338.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240807_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240807_120001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240807_120001-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240807_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240806_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240806_180002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240808_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-08 12:00:02.425279
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240808_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240808_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240809_000001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-09 00:00:02.187009
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240809_000001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240809_000001-mysite-database.sql.gz 349.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240807_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240808_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240808_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240807_180002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240809_000002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-09 00:00:02.498053
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240809_000002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240809_000002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240809_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-09 18:00:02.204219
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240809_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240809_180001-mysite-database.sql.gz 348.0KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240808_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240808_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240809_000002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240809_000002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240809_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-09 18:00:02.410367
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240809_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240809_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240810_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-10 12:00:02.424115
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240810_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240810_120002-mysite-database.sql.gz 347.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240809_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240809_000002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240809_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240809_000002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240810_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-10 12:00:02.723149
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240810_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240810_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240812_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-12 18:00:01.751856
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240812_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240812_180001-mysite-database.sql.gz 350.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240810_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240809_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240809_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240810_120002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240812_180001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-12 18:00:01.942596
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240812_180001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240812_180001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240813_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-13 12:00:02.767813
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240813_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240813_120002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240812_180001-task1-database.sql.gz is recent
+File ./task1/private/backups/20240812_180001-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240813_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-13 12:00:02.993476
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240813_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240813_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240813_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-13 18:00:02.704773
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240813_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240813_180002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240813_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240812_180001-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240812_180001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240813_120002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240813_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-13 18:00:02.905771
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240813_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240813_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240814_180003-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-14 18:00:04.979253
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240814_180003-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240814_180003-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240813_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240813_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240813_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240813_180002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240814_180005-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-14 18:00:06.347369
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240814_180005-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240814_180005-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240815_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-15 12:00:02.097769
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240815_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240815_120001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240814_180005-task1-database.sql.gz is recent
+File ./task1/private/backups/20240814_180005-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240815_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-15 12:00:02.367965
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240815_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240815_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240816_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-16 12:00:02.681532
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240816_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240816_120002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240815_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240814_180005-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240814_180005-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240815_120002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240816_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-16 12:00:02.938052
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240816_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240816_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240817_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-17 12:00:02.172847
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240817_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240817_120001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240816_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240816_120002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240817_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-17 12:00:02.455593
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240817_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240817_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240821_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-21 18:00:02.148713
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240821_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240821_180001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240816_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240816_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240817_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240817_120002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240821_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-21 18:00:02.448162
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240821_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240821_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240822_000002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-22 00:00:02.877090
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240822_000002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240822_000002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240821_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240821_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240822_000002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-22 00:00:03.283337
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240822_000002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240822_000002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240822_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-22 12:00:01.937058
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240822_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240822_120001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240821_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240822_000002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240822_000002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240821_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240822_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-22 12:00:02.200547
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240822_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240822_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240822_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-22 18:00:02.756509
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240822_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240822_180002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240822_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240821_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240822_000002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240822_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240822_000002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240821_180002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240822_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-22 18:00:03.002522
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240822_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240822_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240823_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-23 18:00:01.866409
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240823_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240823_180001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240822_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240822_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240822_000002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240822_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240822_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240822_000002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240823_180001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-23 18:00:02.128938
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240823_180001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240823_180001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240824_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-24 18:00:02.384785
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240824_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240824_180002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240823_180001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240822_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240822_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240823_180001-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240824_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-24 18:00:02.642467
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240824_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240824_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240826_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-26 12:00:02.622102
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240826_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240826_120002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240824_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240824_180002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240826_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-26 12:00:02.913124
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240826_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240826_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240827_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-27 12:00:02.294368
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240827_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240827_120001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240826_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240826_120002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240827_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-27 12:00:02.654466
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240827_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240827_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240829_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-29 12:00:02.459907
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240829_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240829_120002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240827_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240827_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240826_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240826_120002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240829_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-29 12:00:02.680001
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240829_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240829_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240830_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-30 12:00:02.218909
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240830_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240830_120002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240829_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240829_120002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240830_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-30 12:00:02.436332
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240830_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240830_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240831_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-31 12:00:02.298674
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240831_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240831_120002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240829_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240830_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240829_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240830_120002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240831_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-31 12:00:02.511803
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240831_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240831_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240831_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-08-31 18:00:02.089492
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240831_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240831_180001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240830_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240831_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240831_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240830_120002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240831_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-08-31 18:00:02.336823
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240831_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240831_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240901_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-01 12:00:01.926195
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240901_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240901_120001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240831_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240831_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240831_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240831_120002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240901_120001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-01 12:00:02.140489
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240901_120001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240901_120001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240902_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-02 12:00:02.509700
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240902_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240902_120002-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240901_120001-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240831_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240831_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240901_120001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240831_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240831_120002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240902_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-02 12:00:02.758593
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240902_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240902_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240903_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-03 12:00:01.903596
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240903_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240903_120001-mysite-database.sql.gz 349.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240902_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240902_120002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240903_120001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-03 12:00:02.127922
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240903_120001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240903_120001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240903_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-03 18:00:02.389075
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240903_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240903_180002-mysite-database.sql.gz 319.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240902_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240903_120001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240902_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240903_120001-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240903_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-03 18:00:02.617548
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240903_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240903_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240904_000001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-04 00:00:01.813336
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240904_000001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240904_000001-mysite-database.sql.gz 322.7KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240903_120001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240903_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240903_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240903_120001-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240904_000001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-04 00:00:01.988521
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240904_000001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240904_000001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240904_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-04 12:00:01.859937
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240904_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240904_120001-mysite-database.sql.gz 323.7KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240904_000001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240903_120001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240903_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240903_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240904_000001-task1-database.sql.gz is recent
+File ./task1/private/backups/20240903_120001-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240904_120001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-04 12:00:02.063899
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240904_120001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240904_120001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240904_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-04 18:00:02.020465
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240904_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240904_180001-mysite-database.sql.gz 324.7KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240904_000001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240903_120001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240903_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240903_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240904_000001-task1-database.sql.gz is recent
+File ./task1/private/backups/20240904_120001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240903_120001-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240904_120001-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240904_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-04 18:00:02.194297
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240904_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240904_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240905_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-05 12:00:02.560589
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240905_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240905_120002-mysite-database.sql.gz 326.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240904_000001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240903_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240903_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240904_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240904_000001-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240904_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240904_120001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240904_120001-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240905_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-05 12:00:02.762255
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240905_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240905_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240905_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-05 18:00:02.620499
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240905_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240905_180002-mysite-database.sql.gz 327.1KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240905_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240905_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240904_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240904_180002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240905_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-05 18:00:02.866827
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240905_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240905_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240906_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-06 18:00:02.232918
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240906_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240906_180001-mysite-database.sql.gz 330.4KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240905_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240905_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240905_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240905_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240906_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-06 18:00:02.526691
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240906_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240906_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240907_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-07 12:00:02.517861
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240907_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240907_120002-mysite-database.sql.gz 332.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240906_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240905_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240905_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240906_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240907_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-07 12:00:02.766062
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240907_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240907_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240907_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-07 18:00:02.150883
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240907_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240907_180001-mysite-database.sql.gz 333.2KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240906_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240906_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240907_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240907_120002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240907_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-07 18:00:02.392261
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240907_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240907_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240908_000001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-08 00:00:02.281017
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240908_000001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240908_000001-mysite-database.sql.gz 333.2KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240907_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240906_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240906_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240907_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240907_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240907_180002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240908_000002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-08 00:00:02.488700
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240908_000002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240908_000002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240909_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-09 12:00:02.203065
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240909_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240909_120001-mysite-database.sql.gz 335.4KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240907_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240908_000002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240907_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240907_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240908_000002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240907_180002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240909_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-09 12:00:02.615821
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240909_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240909_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240909_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-09 18:00:01.922275
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240909_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240909_180001-mysite-database.sql.gz 336.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240909_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240909_120002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240909_180001-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-09 18:00:02.304181
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240909_180001-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240909_180001-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240910_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-10 12:00:02.582657
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240910_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240910_120002-mysite-database.sql.gz 342.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240909_180001-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240909_180001-task1-database.sql.gz is recent
+File ./task1/private/backups/20240909_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240909_120002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240910_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-10 12:00:02.778968
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240910_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240910_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240911_120001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-11 12:00:02.315561
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240911_120001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240911_120001-mysite-database.sql.gz 354.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240909_180001-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240909_180001-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240910_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240910_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240909_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240909_120002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240911_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-11 12:00:02.681635
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240911_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240911_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240911_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-11 18:00:02.376910
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240911_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240911_180001-mysite-database.sql.gz 375.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240911_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240911_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240910_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240910_120002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240911_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-11 18:00:02.795617
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240911_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240911_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240912_000001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-12 00:00:02.177969
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240912_000001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240912_000001-mysite-database.sql.gz 388.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240911_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240911_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240911_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240911_180002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240912_000002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-12 00:00:02.485579
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240912_000002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240912_000002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240912_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-12 12:00:02.767780
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240912_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240912_120002-mysite-database.sql.gz 393.2KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240911_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240911_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240911_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240912_000002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240911_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240912_000002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240912_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-12 12:00:03.157409
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240912_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240912_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240912_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-12 18:00:02.522364
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240912_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240912_180002-mysite-database.sql.gz 393.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240911_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240912_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240912_000002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240911_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240912_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240912_000002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240912_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-12 18:00:02.727218
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240912_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240912_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240913_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-13 12:00:03.127159
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240913_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240913_120002-mysite-database.sql.gz 393.1KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240911_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240912_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240912_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240912_000002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240911_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240912_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240912_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240912_000002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240913_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-13 12:00:03.505936
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240913_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240913_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240913_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-13 18:00:02.575830
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240913_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240913_180002-mysite-database.sql.gz 393.1KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240912_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240913_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240912_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240912_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240912_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240913_120003-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240913_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-13 18:00:03.102758
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240913_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240913_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240914_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-14 12:00:02.851626
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240914_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240914_120002-Airplane_mode-database.sql.gz 222.8KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240913_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240913_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240913_180002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240913_180002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240912_180002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240912_180002-mysite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240914_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-14 12:00:03.446842
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240914_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240914_120002-mysite-database.sql.gz 390.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240913_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240913_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240912_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240912_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240913_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20240913_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240914_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-14 12:00:04.051834
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240914_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240914_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240914_180001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-14 18:00:02.127922
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240914_180001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240914_180001-Airplane_mode-database.sql.gz 222.8KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240913_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240913_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240914_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240913_180002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240913_180002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240914_120002-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240914_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-14 18:00:02.470563
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240914_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240914_180002-mysite-database.sql.gz 390.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240913_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240913_120003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240914_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240914_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20240913_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240913_180002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240914_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-14 18:00:02.785220
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240914_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240914_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240916_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-16 12:00:02.178049
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240916_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240916_120001-Airplane_mode-database.sql.gz 225.9KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240914_180002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240914_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240913_180002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240913_180002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240914_180002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240914_120002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240916_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-16 12:00:02.548392
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240916_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240916_120002-mysite-database.sql.gz 389.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240914_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240913_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240914_120003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240914_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240914_180002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240913_180002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240916_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-16 12:00:02.998990
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240916_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240916_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240917_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-17 12:00:02.722219
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240917_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240917_120002-Airplane_mode-database.sql.gz 227.6KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240916_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240916_120002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240917_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-17 12:00:03.014948
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240917_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240917_120002-mysite-database.sql.gz 391.0KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240916_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240916_120002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240917_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-17 12:00:03.261046
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240917_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240917_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240918_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-18 12:00:03.212785
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240918_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240918_120002-Airplane_mode-database.sql.gz 230.7KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240917_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240917_120002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240918_120003-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-18 12:00:03.476245
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240918_120003-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240918_120003-mysite-database.sql.gz 397.6KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240917_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240917_120003-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240918_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-18 12:00:03.726557
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240918_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240918_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240918_180001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-18 18:00:01.862730
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240918_180001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240918_180001-Airplane_mode-database.sql.gz 231.7KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240918_120003-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240918_120003-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240918_180001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-18 18:00:02.162890
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240918_180001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240918_180001-mysite-database.sql.gz 402.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240918_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20240918_120003-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240918_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-18 18:00:02.500495
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240918_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240918_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240919_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-19 12:00:02.520345
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240919_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240919_120002-Airplane_mode-database.sql.gz 231.9KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240918_180001-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240918_120003-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240918_120003-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240918_180001-mysite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240919_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-19 12:00:02.826081
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240919_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240919_120002-mysite-database.sql.gz 405.0KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240918_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20240918_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240918_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240918_180002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240919_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-19 12:00:03.191722
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240919_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240919_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240920_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-20 12:00:02.233870
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240920_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240920_120001-Airplane_mode-database.sql.gz 232.6KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240919_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240918_180001-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240918_120003-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240919_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240918_120003-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240918_180001-mysite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240920_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-20 12:00:02.538034
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240920_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240920_120002-mysite-database.sql.gz 413.2KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240919_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240918_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240919_120002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240918_180002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240918_120003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240918_180002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240920_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-20 12:00:02.894370
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240920_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240920_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240922_000001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-22 00:00:02.390376
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240922_000001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240922_000001-Airplane_mode-database.sql.gz 232.6KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240920_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240919_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240920_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240919_120002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240922_000002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-22 00:00:02.713978
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240922_000002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240922_000002-mysite-database.sql.gz 418.3KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240920_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240919_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240919_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240920_120002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240922_000002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-22 00:00:03.067028
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240922_000002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240922_000002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240923_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-23 12:00:02.419252
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240923_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240923_120001-Airplane_mode-database.sql.gz 233.7KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240922_000002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240922_000002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240923_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-23 12:00:02.743885
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240923_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240923_120002-mysite-database.sql.gz 422.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240922_000002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240922_000002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240923_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-23 12:00:03.123901
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240923_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240923_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240924_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-24 12:00:02.973426
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240924_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240924_120002-Airplane_mode-database.sql.gz 234.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240923_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240923_120002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240924_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-24 12:00:03.573721
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240924_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240924_120002-mysite-database.sql.gz 446.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240923_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240923_120002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240924_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-24 12:00:04.279209
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240924_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240924_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240925_000001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-25 00:00:02.408221
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240925_000001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240925_000001-Airplane_mode-database.sql.gz 236.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240924_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240924_120002-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240925_000002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-25 00:00:02.784504
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240925_000002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240925_000002-mysite-database.sql.gz 461.9KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240924_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20240924_120003-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240925_000002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-25 00:00:03.074180
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240925_000002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240925_000002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240925_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-25 12:00:02.285663
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240925_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240925_120001-Airplane_mode-database.sql.gz 235.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240925_000002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240924_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240925_000002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240924_120002-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240925_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-25 12:00:02.652515
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240925_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240925_120002-mysite-database.sql.gz 464.5KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240924_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20240924_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240925_000002-task1-database.sql.gz is recent
+File ./task1/private/backups/20240925_000002-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240925_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-25 12:00:03.078177
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240925_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240925_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240926_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-26 12:00:02.551628
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240926_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240926_120002-Airplane_mode-database.sql.gz 235.7KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240925_000002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240925_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20240924_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240925_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240925_000002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240924_120002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240926_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-26 12:00:03.278652
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240926_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240926_120002-mysite-database.sql.gz 464.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240925_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240924_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240925_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240924_120003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240925_000002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240925_000002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240926_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-26 12:00:03.816358
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240926_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240926_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240927_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-27 12:00:02.161335
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240927_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240927_120001-Airplane_mode-database.sql.gz 235.7KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240926_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240925_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240925_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240926_120002-mysite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240927_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-27 12:00:02.700165
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240927_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240927_120002-mysite-database.sql.gz 464.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240926_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240926_120003-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240927_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-27 12:00:03.063721
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240927_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240927_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240930_180003-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-30 18:00:04.999109
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240930_180003-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20240930_180003-Airplane_mode-database.sql.gz 232.6KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240927_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20240926_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240927_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240926_120002-mysite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20240930_180005-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-09-30 18:00:06.670095
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20240930_180005-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20240930_180005-mysite-database.sql.gz 456.0KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240926_120003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240926_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240927_120002-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20240927_120002-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20240930_180006-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-09-30 18:00:08.099111
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20240930_180006-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20240930_180006-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241001_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-01 12:00:02.742679
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241001_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241001_120002-Airplane_mode-database.sql.gz 230.1KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240930_180005-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20240930_180005-mysite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241001_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-01 12:00:03.192737
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241001_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241001_120002-mysite-database.sql.gz 454.1KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20240930_180006-task1-site_config_backup.json is recent
+File ./task1/private/backups/20240930_180006-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241001_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-01 12:00:03.609710
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241001_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241001_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241002_000006-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-02 00:00:07.150494
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241002_000006-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241002_000006-Airplane_mode-database.sql.gz 227.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20240930_180005-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20240930_180005-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20241001_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241001_120002-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241002_000007-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-02 00:00:07.409403
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241002_000007-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241002_000007-mysite-database.sql.gz 456.0KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241001_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20240930_180006-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20240930_180006-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20241001_120003-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241002_000007-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-02 00:00:07.645404
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241002_000007-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241002_000007-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241002_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-02 12:00:02.612911
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241002_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241002_120002-Airplane_mode-database.sql.gz 227.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241001_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241001_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241002_000007-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241002_000007-mysite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241002_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-02 12:00:02.978681
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241002_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241002_120002-mysite-database.sql.gz 457.4KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241001_120003-task1-database.sql.gz is recent
+File ./task1/private/backups/20241002_000007-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241002_000007-task1-database.sql.gz is recent
+File ./task1/private/backups/20241001_120003-task1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241002_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-02 12:00:03.371920
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241002_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241002_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241003_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-03 12:00:02.793050
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241003_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241003_120002-Airplane_mode-database.sql.gz 226.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241002_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241002_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241001_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20241001_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20241002_000007-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20241002_000007-mysite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241003_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-03 12:00:03.383920
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241003_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241003_120002-mysite-database.sql.gz 457.6KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241001_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20241002_120003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20241002_120003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20241002_000007-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20241002_000007-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20241001_120003-task1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241003_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-03 12:00:03.816771
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241003_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241003_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241005_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-05 12:00:01.872217
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241005_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241005_120001-Airplane_mode-database.sql.gz 226.9KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241002_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20241002_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20241003_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20241003_120002-mysite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241005_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-05 12:00:02.374874
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241005_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241005_120002-mysite-database.sql.gz 457.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241003_120003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20241003_120003-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241005_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-05 12:00:02.816990
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241005_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241005_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241006_000001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-06 00:00:01.933814
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241006_000001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241006_000001-Airplane_mode-database.sql.gz 226.9KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241005_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241005_120002-mysite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241006_000001-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-06 00:00:02.270706
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241006_000001-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241006_000001-mysite-database.sql.gz 490.1KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241005_120002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241005_120002-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241006_000002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-06 00:00:02.619295
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241006_000002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241006_000002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241006_180002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-06 18:00:02.597523
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241006_180002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241006_180002-Airplane_mode-database.sql.gz 228.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241006_000001-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241005_120002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20241005_120002-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20241006_000001-mysite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241006_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-06 18:00:03.252555
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241006_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241006_180002-mysite-database.sql.gz 498.2KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241005_120002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20241006_000002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241006_000002-task1-database.sql.gz is recent
+File ./task1/private/backups/20241005_120002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241006_180003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-06 18:00:03.789298
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241006_180003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241006_180003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241008_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-08 12:00:02.408517
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241008_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241008_120002-Airplane_mode-database.sql.gz 229.0KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241006_000001-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20241006_180002-mysite-database.sql.gz is older than 24 hours
+File ./mysite/private/backups/20241006_000001-mysite-site_config_backup.json is older than 24 hours
+File ./mysite/private/backups/20241006_180002-mysite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241008_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-08 12:00:02.954539
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241008_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241008_120002-mysite-database.sql.gz 499.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241006_180003-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20241006_180003-task1-database.sql.gz is older than 24 hours
+File ./task1/private/backups/20241006_000002-task1-site_config_backup.json is older than 24 hours
+File ./task1/private/backups/20241006_000002-task1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241008_120003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-08 12:00:03.357990
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241008_120003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241008_120003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241008_180002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-08 18:00:02.356624
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241008_180002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241008_180002-Airplane_mode-database.sql.gz 229.0KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241008_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241008_120002-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241008_180002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-08 18:00:02.813146
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241008_180002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241008_180002-mysite-database.sql.gz 499.8KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241008_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241008_120003-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241008_180002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-08 18:00:03.109342
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241008_180002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241008_180002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241009_000002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-09 00:00:02.441470
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241009_000002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241009_000002-Airplane_mode-database.sql.gz 228.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241008_180002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241008_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241008_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241008_180002-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241009_000002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-09 00:00:02.969046
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241009_000002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241009_000002-mysite-database.sql.gz 500.1KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241008_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241008_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20241008_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241008_120003-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241009_000003-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-09 00:00:03.399538
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241009_000003-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241009_000003-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6b4aa44560bd474d --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6b4aa44560bd474d | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241009_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-09 12:00:02.203202
+Config  : /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241009_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/new-bench/sites/Airplane_mode/private/backups/20241009_120001-Airplane_mode-database.sql.gz 228.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./mysite/private/backups/20241009_000002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241008_180002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241008_120002-mysite-site_config_backup.json is recent
+File ./mysite/private/backups/20241008_120002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241008_180002-mysite-database.sql.gz is recent
+File ./mysite/private/backups/20241009_000002-mysite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_a307db9a9931d2cb --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a307db9a9931d2cb | /usr/bin/gzip >> ./mysite/private/backups/20241009_120002-mysite-database.sql.gz
+
+Backup Summary for mysite at 2024-10-09 12:00:02.653832
+Config  : /home/urmila/new-bench/sites/mysite/private/backups/20241009_120002-mysite-site_config_backup.json 216.0B
+Database: /home/urmila/new-bench/sites/mysite/private/backups/20241009_120002-mysite-database.sql.gz 500.1KiB
+Backup for Site mysite has been successfully completed
+File ./task1/private/backups/20241008_180002-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241008_180002-task1-database.sql.gz is recent
+File ./task1/private/backups/20241009_000003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241008_120003-task1-site_config_backup.json is recent
+File ./task1/private/backups/20241009_000003-task1-database.sql.gz is recent
+File ./task1/private/backups/20241008_120003-task1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_320eeb102cd47721 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _320eeb102cd47721 | /usr/bin/gzip >> ./task1/private/backups/20241009_120002-task1-database.sql.gz
+
+Backup Summary for task1 at 2024-10-09 12:00:02.984156
+Config  : /home/urmila/new-bench/sites/task1/private/backups/20241009_120002-task1-site_config_backup.json 150.0B
+Database: /home/urmila/new-bench/sites/task1/private/backups/20241009_120002-task1-database.sql.gz 215.4KiB
+Backup for Site task1 has been successfully completed

@@ -1,0 +1,577 @@
+2024-07-29 17:49:23,679 DEBUG cd new-bench && python3 -m venv env
+2024-07-29 17:49:25,775 DEBUG cd new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-07-29 17:49:28,426 DEBUG cd new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet wheel
+2024-07-29 17:49:29,213 LOG Getting frappe
+2024-07-29 17:49:29,213 DEBUG cd new-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-07-29 17:49:43,175 LOG Installing frappe
+2024-07-29 17:49:43,175 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/frappe 
+2024-07-29 17:50:08,135 DEBUG cd /home/urmila/new-bench/apps/frappe && yarn install --check-files
+2024-07-29 17:50:15,692 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-29 17:50:15,692 DEBUG cd new-bench && bench build
+2024-07-29 17:50:15,777 INFO /usr/local/bin/bench build
+2024-07-29 17:50:27,787 LOG setting up backups
+2024-07-29 17:50:27,796 LOG backups were set up
+2024-07-29 17:50:27,796 INFO Bench new-bench initialized
+2024-07-29 17:51:06,820 INFO /usr/local/bin/bench new-site mysite
+2024-07-29 17:51:46,394 INFO /usr/local/bin/bench start
+2024-07-29 17:51:46,586 INFO /usr/local/bin/bench worker
+2024-07-29 17:51:46,589 INFO /usr/local/bin/bench watch
+2024-07-29 17:51:46,612 INFO /usr/local/bin/bench serve --port 8002
+2024-07-29 17:51:46,614 INFO /usr/local/bin/bench schedule
+2024-07-29 17:52:49,899 INFO /usr/local/bin/bench use mysite
+2024-07-29 17:53:00,882 INFO /usr/local/bin/bench start
+2024-07-29 17:53:01,072 INFO /usr/local/bin/bench worker
+2024-07-29 17:53:01,096 INFO /usr/local/bin/bench serve --port 8002
+2024-07-29 17:53:01,096 INFO /usr/local/bin/bench watch
+2024-07-29 17:53:01,103 INFO /usr/local/bin/bench schedule
+2024-07-29 18:00:01,600 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-30 18:00:01,398 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-30 18:41:54,068 INFO /usr/local/bin/bench start
+2024-07-30 18:41:54,268 INFO /usr/local/bin/bench schedule
+2024-07-30 18:41:54,269 INFO /usr/local/bin/bench serve --port 8002
+2024-07-30 18:41:54,305 INFO /usr/local/bin/bench worker
+2024-07-30 18:41:54,309 INFO /usr/local/bin/bench watch
+2024-07-30 20:26:33,441 INFO /usr/local/bin/bench new-app rentals
+2024-07-30 20:26:33,445 LOG creating new app rentals
+2024-07-30 20:31:56,698 LOG Installing rentals
+2024-07-30 20:31:56,699 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/rentals 
+2024-07-30 20:31:58,308 DEBUG bench build --app rentals
+2024-07-30 20:31:58,373 INFO /usr/local/bin/bench build --app rentals
+2024-07-30 20:31:59,469 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 20:49:50,744 INFO /usr/local/bin/bench new-app rentals
+2024-07-30 20:49:50,747 LOG creating new app rentals
+2024-07-30 20:51:45,570 LOG Installing rentals
+2024-07-30 20:51:45,571 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/rentals 
+2024-07-30 20:51:47,000 DEBUG bench build --app rentals
+2024-07-30 20:51:47,066 INFO /usr/local/bin/bench build --app rentals
+2024-07-30 20:51:47,928 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 20:52:45,826 INFO /usr/local/bin/bench new-app rentals
+2024-07-30 20:52:45,828 LOG creating new app rentals
+2024-07-30 20:53:44,827 LOG Installing rentals
+2024-07-30 20:53:44,827 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/rentals 
+2024-07-30 20:53:46,177 DEBUG bench build --app rentals
+2024-07-30 20:53:46,243 INFO /usr/local/bin/bench build --app rentals
+2024-07-30 20:53:47,090 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 21:50:41,372 INFO /usr/local/bin/bench --site mysite mariadb
+2024-07-30 22:09:14,490 INFO /usr/local/bin/bench --site mysite install-app rentals
+2024-07-30 22:10:41,793 INFO /usr/local/bin/bench start
+2024-07-30 22:10:41,982 INFO /usr/local/bin/bench watch
+2024-07-30 22:10:41,983 INFO /usr/local/bin/bench worker
+2024-07-30 22:10:42,016 INFO /usr/local/bin/bench serve --port 8002
+2024-07-30 22:10:42,024 INFO /usr/local/bin/bench schedule
+2024-07-31 00:00:01,599 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-31 12:00:01,118 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-31 12:02:55,525 INFO /usr/local/bin/bench --site mysite set-config developer_mode 1
+2024-07-31 13:02:45,369 INFO /usr/local/bin/bench --site mysite set-config developer-mode 1
+2024-07-31 14:36:12,245 INFO /usr/local/bin/bench start
+2024-07-31 14:36:12,434 INFO /usr/local/bin/bench worker
+2024-07-31 14:36:12,442 INFO /usr/local/bin/bench serve --port 8002
+2024-07-31 14:36:12,471 INFO /usr/local/bin/bench schedule
+2024-07-31 14:36:12,473 INFO /usr/local/bin/bench watch
+2024-07-31 15:55:10,783 INFO /usr/local/bin/bench --site mysite set-config developer-mode 1
+2024-07-31 16:22:32,694 INFO /usr/local/bin/bench --site mysite set-config developer_mode 1
+2024-07-31 17:35:53,897 INFO /usr/local/bin/bench --site mysite add-to-hosts
+2024-07-31 18:00:01,883 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-01 09:46:40,863 INFO /usr/local/bin/bench start
+2024-08-01 09:46:41,049 INFO /usr/local/bin/bench schedule
+2024-08-01 09:46:41,052 INFO /usr/local/bin/bench worker
+2024-08-01 09:46:41,083 INFO /usr/local/bin/bench watch
+2024-08-01 09:46:41,083 INFO /usr/local/bin/bench serve --port 8002
+2024-08-01 09:48:19,700 INFO /usr/local/bin/bench start
+2024-08-01 09:48:19,883 INFO /usr/local/bin/bench serve --port 8002
+2024-08-01 09:48:19,887 INFO /usr/local/bin/bench schedule
+2024-08-01 09:48:19,924 INFO /usr/local/bin/bench worker
+2024-08-01 09:48:19,924 INFO /usr/local/bin/bench watch
+2024-08-01 15:22:53,914 INFO /usr/local/bin/bench start
+2024-08-01 15:22:54,121 INFO /usr/local/bin/bench watch
+2024-08-01 15:22:54,135 INFO /usr/local/bin/bench worker
+2024-08-01 15:22:54,157 INFO /usr/local/bin/bench serve --port 8002
+2024-08-01 15:22:54,166 INFO /usr/local/bin/bench schedule
+2024-08-01 18:00:02,149 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-01 18:40:34,754 INFO /usr/local/bin/bench start
+2024-08-01 18:40:35,282 INFO /usr/local/bin/bench schedule
+2024-08-01 18:40:35,340 INFO /usr/local/bin/bench watch
+2024-08-01 18:40:35,397 INFO /usr/local/bin/bench serve --port 8002
+2024-08-01 18:40:35,408 INFO /usr/local/bin/bench worker
+2024-08-02 11:00:50,471 INFO /usr/local/bin/bench start
+2024-08-02 11:00:50,671 INFO /usr/local/bin/bench watch
+2024-08-02 11:00:50,671 INFO /usr/local/bin/bench worker
+2024-08-02 11:00:50,706 INFO /usr/local/bin/bench serve --port 8002
+2024-08-02 11:00:50,707 INFO /usr/local/bin/bench schedule
+2024-08-02 12:00:02,113 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-02 12:57:25,344 INFO /usr/local/bin/bench start
+2024-08-02 12:57:25,533 INFO /usr/local/bin/bench schedule
+2024-08-02 12:57:25,536 INFO /usr/local/bin/bench serve --port 8002
+2024-08-02 12:57:25,568 INFO /usr/local/bin/bench watch
+2024-08-02 12:57:25,574 INFO /usr/local/bin/bench worker
+2024-08-02 22:14:21,486 INFO /usr/local/bin/bench start
+2024-08-03 11:10:48,013 INFO /usr/local/bin/bench start
+2024-08-03 11:11:43,055 INFO /usr/local/bin/bench start
+2024-08-03 11:17:13,792 INFO /usr/local/bin/bench start
+2024-08-03 11:18:29,454 INFO /usr/local/bin/bench start
+2024-08-03 11:18:29,630 INFO /usr/local/bin/bench serve --port 8002
+2024-08-03 11:18:29,631 INFO /usr/local/bin/bench worker
+2024-08-03 11:18:29,671 INFO /usr/local/bin/bench watch
+2024-08-03 11:18:29,671 INFO /usr/local/bin/bench schedule
+2024-08-03 12:00:01,871 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-03 12:30:14,013 INFO /usr/local/bin/bench --site mysite mariadb
+2024-08-03 14:15:19,596 INFO /usr/local/bin/bench --site mysite console --autoreload
+2024-08-03 14:22:47,202 INFO /usr/local/bin/bench start
+2024-08-03 14:22:47,406 INFO /usr/local/bin/bench serve --port 8002
+2024-08-03 14:22:47,409 INFO /usr/local/bin/bench schedule
+2024-08-03 14:22:47,449 INFO /usr/local/bin/bench watch
+2024-08-03 14:22:47,449 INFO /usr/local/bin/bench worker
+2024-08-03 14:39:24,293 INFO /usr/local/bin/bench --site mysite console --autoreload
+2024-08-03 17:43:30,555 INFO /usr/local/bin/bench start
+2024-08-03 17:43:30,750 INFO /usr/local/bin/bench watch
+2024-08-03 17:43:30,751 INFO /usr/local/bin/bench worker
+2024-08-03 17:43:30,787 INFO /usr/local/bin/bench serve --port 8002
+2024-08-03 17:43:30,789 INFO /usr/local/bin/bench schedule
+2024-08-03 18:00:02,014 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-03 20:54:42,107 INFO /usr/local/bin/bench new-site task1
+2024-08-03 21:06:12,869 INFO /usr/local/bin/bench start
+2024-08-03 21:07:18,137 INFO /usr/local/bin/bench start
+2024-08-03 21:07:18,318 INFO /usr/local/bin/bench watch
+2024-08-03 21:07:18,319 INFO /usr/local/bin/bench schedule
+2024-08-03 21:07:18,355 INFO /usr/local/bin/bench serve --port 8002
+2024-08-03 21:07:18,359 INFO /usr/local/bin/bench worker
+2024-08-03 21:21:24,903 INFO /usr/local/bin/bench new-app airplane_mode
+2024-08-03 21:21:24,906 LOG creating new app airplane_mode
+2024-08-03 21:24:34,375 INFO /usr/local/bin/bench new-app airplane_mode
+2024-08-03 21:24:34,378 LOG creating new app airplane_mode
+2024-08-03 21:25:51,635 LOG Installing airplane_mode
+2024-08-03 21:25:51,635 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/airplane_mode 
+2024-08-03 21:25:53,247 DEBUG bench build --app airplane_mode
+2024-08-03 21:25:53,345 INFO /usr/local/bin/bench build --app airplane_mode
+2024-08-03 21:25:54,375 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-04 12:00:01,291 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-04 12:31:13,298 INFO /usr/local/bin/bench start
+2024-08-04 12:31:13,481 INFO /usr/local/bin/bench worker
+2024-08-04 12:31:13,489 INFO /usr/local/bin/bench watch
+2024-08-04 12:31:13,511 INFO /usr/local/bin/bench schedule
+2024-08-04 12:31:13,513 INFO /usr/local/bin/bench serve --port 8002
+2024-08-04 18:00:01,836 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-05 10:02:46,454 INFO /usr/local/bin/bench start
+2024-08-05 10:02:47,004 INFO /usr/local/bin/bench schedule
+2024-08-05 10:02:47,008 INFO /usr/local/bin/bench watch
+2024-08-05 10:02:47,116 INFO /usr/local/bin/bench worker
+2024-08-05 10:02:47,119 INFO /usr/local/bin/bench serve --port 8002
+2024-08-05 11:46:57,365 INFO /usr/local/bin/bench --site mysite mariadb
+2024-08-05 18:00:01,719 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-06 09:47:11,731 INFO /usr/local/bin/bench start
+2024-08-06 09:48:22,701 INFO /usr/local/bin/bench start
+2024-08-06 09:48:22,884 INFO /usr/local/bin/bench schedule
+2024-08-06 09:48:22,885 INFO /usr/local/bin/bench worker
+2024-08-06 09:48:22,911 INFO /usr/local/bin/bench watch
+2024-08-06 09:48:22,920 INFO /usr/local/bin/bench serve --port 8002
+2024-08-06 18:00:01,445 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-07 12:00:01,380 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-07 18:00:01,878 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-08 10:01:55,583 INFO /usr/local/bin/bench start
+2024-08-08 10:05:08,258 INFO /usr/local/bin/bench start
+2024-08-08 10:09:16,649 INFO /usr/local/bin/bench start
+2024-08-08 10:09:16,834 INFO /usr/local/bin/bench worker
+2024-08-08 10:09:16,839 INFO /usr/local/bin/bench schedule
+2024-08-08 10:09:16,864 INFO /usr/local/bin/bench serve --port 8002
+2024-08-08 10:09:16,870 INFO /usr/local/bin/bench watch
+2024-08-08 12:00:01,778 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-09 00:00:01,399 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-09 09:53:25,158 INFO /usr/local/bin/bench start
+2024-08-09 09:53:25,663 INFO /usr/local/bin/bench serve --port 8002
+2024-08-09 09:53:25,678 INFO /usr/local/bin/bench worker
+2024-08-09 09:53:25,804 INFO /usr/local/bin/bench watch
+2024-08-09 09:53:25,810 INFO /usr/local/bin/bench schedule
+2024-08-09 18:00:01,687 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-10 11:47:05,752 INFO /usr/local/bin/bench start
+2024-08-10 11:50:42,428 INFO /usr/local/bin/bench start
+2024-08-10 11:50:42,604 INFO /usr/local/bin/bench schedule
+2024-08-10 11:50:42,605 INFO /usr/local/bin/bench watch
+2024-08-10 11:50:42,639 INFO /usr/local/bin/bench serve --port 8002
+2024-08-10 11:50:42,644 INFO /usr/local/bin/bench worker
+2024-08-10 12:00:01,891 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-12 18:00:01,199 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-13 12:00:02,080 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-13 18:00:02,066 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-14 18:00:02,290 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-15 12:00:01,392 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-16 12:00:01,987 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-17 12:00:01,397 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-21 18:00:01,294 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-22 00:00:02,186 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-22 12:00:01,207 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-22 18:00:02,012 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-23 18:00:01,174 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-24 18:00:01,655 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-26 12:00:01,869 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-27 12:00:01,456 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-29 12:00:01,777 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-30 12:00:01,535 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-31 12:00:01,762 INFO /usr/local/bin/bench --verbose --site all backup
+2024-08-31 18:00:01,468 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-01 12:00:01,344 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-02 12:00:01,526 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-03 12:00:01,238 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-03 17:30:53,807 INFO /usr/local/bin/bench start
+2024-09-03 17:30:54,003 INFO /usr/local/bin/bench watch
+2024-09-03 17:30:54,005 INFO /usr/local/bin/bench schedule
+2024-09-03 17:30:54,028 INFO /usr/local/bin/bench serve --port 8002
+2024-09-03 17:30:54,044 INFO /usr/local/bin/bench worker
+2024-09-03 18:00:01,737 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-04 00:00:01,300 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-04 12:00:01,364 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-04 18:00:01,488 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-05 12:00:01,927 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-05 18:00:01,840 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-05 19:06:34,476 INFO /usr/local/bin/bench start
+2024-09-05 19:06:35,006 INFO /usr/local/bin/bench worker
+2024-09-05 19:06:35,017 INFO /usr/local/bin/bench watch
+2024-09-05 19:06:35,140 INFO /usr/local/bin/bench serve --port 8002
+2024-09-05 19:06:35,147 INFO /usr/local/bin/bench schedule
+2024-09-06 14:39:40,821 INFO /usr/local/bin/bench start
+2024-09-06 14:41:49,882 INFO /usr/local/bin/bench start
+2024-09-06 14:41:50,082 INFO /usr/local/bin/bench worker
+2024-09-06 14:41:50,087 INFO /usr/local/bin/bench schedule
+2024-09-06 14:41:50,120 INFO /usr/local/bin/bench serve --port 8002
+2024-09-06 14:41:50,120 INFO /usr/local/bin/bench watch
+2024-09-06 18:00:01,707 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-07 12:00:01,850 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-07 18:00:01,618 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-08 00:00:01,714 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-08 04:12:11,264 INFO /usr/local/bin/bench start
+2024-09-08 04:13:23,527 INFO /usr/local/bin/bench start
+2024-09-08 04:13:23,724 INFO /usr/local/bin/bench watch
+2024-09-08 04:13:23,724 INFO /usr/local/bin/bench worker
+2024-09-08 04:13:23,747 INFO /usr/local/bin/bench schedule
+2024-09-08 04:13:23,750 INFO /usr/local/bin/bench serve --port 8002
+2024-09-08 04:38:30,030 INFO /usr/local/bin/bench start
+2024-09-09 12:00:01,588 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-09 16:43:20,413 INFO /usr/local/bin/bench start
+2024-09-09 16:44:36,228 INFO /usr/local/bin/bench start
+2024-09-09 16:44:36,425 INFO /usr/local/bin/bench schedule
+2024-09-09 16:44:36,434 INFO /usr/local/bin/bench worker
+2024-09-09 16:44:36,466 INFO /usr/local/bin/bench serve --port 8002
+2024-09-09 16:44:36,466 INFO /usr/local/bin/bench watch
+2024-09-09 18:00:01,424 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-10 12:00:02,055 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-10 21:25:02,175 INFO /usr/local/bin/bench start
+2024-09-10 21:55:03,455 INFO /usr/local/bin/bench start
+2024-09-10 21:55:03,663 INFO /usr/local/bin/bench worker
+2024-09-10 21:55:03,664 INFO /usr/local/bin/bench serve --port 8002
+2024-09-10 21:55:03,689 INFO /usr/local/bin/bench schedule
+2024-09-10 21:55:03,700 INFO /usr/local/bin/bench watch
+2024-09-10 21:55:40,741 INFO /usr/local/bin/bench start
+2024-09-10 21:57:24,176 INFO /usr/local/bin/bench new-app appNew
+2024-09-10 21:57:24,179 LOG creating new app appnew
+2024-09-10 21:57:57,582 WARNING /usr/local/bin/bench new-app appNew executed with exit code 1
+2024-09-10 21:57:57,783 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-10 21:59:02,909 INFO /usr/local/bin/bench new-app [200~Interview management system
+2024-09-10 21:59:02,916 WARNING /usr/local/bin/bench new-app [200~Interview management system executed with exit code 2
+2024-09-10 21:59:03,089 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-10 21:59:31,300 INFO /usr/local/bin/bench new-app interview_management_system
+2024-09-10 21:59:31,303 LOG creating new app interview_management_system
+2024-09-10 22:03:08,404 LOG Installing interview_management_system
+2024-09-10 22:03:08,405 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/interview_management_system 
+2024-09-10 22:03:09,971 DEBUG bench build --app interview_management_system
+2024-09-10 22:03:10,042 INFO /usr/local/bin/bench build --app interview_management_system
+2024-09-10 22:03:10,955 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-10 22:03:11,123 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-10 22:07:45,786 INFO /usr/local/bin/bench start
+2024-09-10 22:09:05,952 INFO /usr/local/bin/bench start
+2024-09-10 22:09:06,147 INFO /usr/local/bin/bench schedule
+2024-09-10 22:09:06,147 INFO /usr/local/bin/bench worker
+2024-09-10 22:09:06,170 INFO /usr/local/bin/bench watch
+2024-09-10 22:09:06,184 INFO /usr/local/bin/bench serve --port 8002
+2024-09-11 12:00:01,695 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-11 12:10:56,460 INFO /usr/local/bin/bench start
+2024-09-11 12:10:56,669 INFO /usr/local/bin/bench worker
+2024-09-11 12:10:56,673 INFO /usr/local/bin/bench schedule
+2024-09-11 12:10:56,704 INFO /usr/local/bin/bench watch
+2024-09-11 12:10:56,708 INFO /usr/local/bin/bench serve --port 8002
+2024-09-11 12:22:36,253 INFO /usr/local/bin/bench start
+2024-09-11 12:23:46,305 INFO /usr/local/bin/bench start
+2024-09-11 12:23:46,497 INFO /usr/local/bin/bench watch
+2024-09-11 12:23:46,504 INFO /usr/local/bin/bench schedule
+2024-09-11 12:23:46,527 INFO /usr/local/bin/bench worker
+2024-09-11 12:23:46,536 INFO /usr/local/bin/bench serve --port 8002
+2024-09-11 12:48:47,876 INFO /usr/local/bin/bench --site mysite install-app interview_management_system
+2024-09-11 18:00:01,752 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-11 18:21:13,583 INFO /usr/local/bin/bench start
+2024-09-11 18:21:13,822 INFO /usr/local/bin/bench schedule
+2024-09-11 18:21:13,825 INFO /usr/local/bin/bench worker
+2024-09-11 18:21:13,833 INFO /usr/local/bin/bench watch
+2024-09-11 18:21:13,853 INFO /usr/local/bin/bench serve --port 8002
+2024-09-11 19:12:43,293 INFO /usr/local/bin/bench list-sites
+2024-09-12 00:00:01,539 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-12 10:09:01,415 INFO /usr/local/bin/bench start
+2024-09-12 10:10:06,004 INFO /usr/local/bin/bench start
+2024-09-12 10:10:06,215 INFO /usr/local/bin/bench schedule
+2024-09-12 10:10:06,226 INFO /usr/local/bin/bench watch
+2024-09-12 10:10:06,233 INFO /usr/local/bin/bench worker
+2024-09-12 10:10:06,236 INFO /usr/local/bin/bench serve --port 8002
+2024-09-12 12:00:02,097 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-12 18:00:01,898 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-13 12:00:01,976 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-13 15:55:40,408 INFO /usr/local/bin/bench start
+2024-09-13 15:56:36,854 INFO /usr/local/bin/bench start
+2024-09-13 15:56:37,043 INFO /usr/local/bin/bench worker
+2024-09-13 15:56:37,048 INFO /usr/local/bin/bench serve --port 8002
+2024-09-13 15:56:37,084 INFO /usr/local/bin/bench watch
+2024-09-13 15:56:37,085 INFO /usr/local/bin/bench schedule
+2024-09-13 18:00:01,777 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-13 19:07:02,164 INFO /usr/local/bin/bench new-site Airplane_mode
+2024-09-13 19:17:50,061 INFO /usr/local/bin/bench --site Airplane_mode install-app airplane_mode
+2024-09-13 19:21:53,556 INFO /usr/local/bin/bench --site Airplane_mode install-app frappe
+2024-09-13 19:24:57,700 INFO /usr/local/bin/bench --site frappe migrate
+2024-09-13 20:42:23,703 INFO /usr/local/bin/bench --site Airplane_mode install-app airplane_mode
+2024-09-13 20:46:31,045 INFO /usr/local/bin/bench --site Airplane_mode install-app airplane_mode
+2024-09-13 20:46:56,928 INFO /usr/local/bin/bench --site Airplane_mode install-app airplane_mode
+2024-09-13 20:49:32,427 INFO /usr/local/bin/bench start
+2024-09-13 21:01:03,360 INFO /usr/local/bin/bench start
+2024-09-13 21:01:03,557 INFO /usr/local/bin/bench watch
+2024-09-13 21:01:03,561 INFO /usr/local/bin/bench worker
+2024-09-13 21:01:03,586 INFO /usr/local/bin/bench serve --port 8002
+2024-09-13 21:01:03,599 INFO /usr/local/bin/bench schedule
+2024-09-13 21:05:59,797 INFO /usr/local/bin/bench new-app New_Airplane_mode
+2024-09-13 21:05:59,801 LOG creating new app new_airplane_mode
+2024-09-13 21:07:08,533 LOG Installing new_airplane_mode
+2024-09-13 21:07:08,534 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/new_airplane_mode 
+2024-09-13 21:07:09,929 DEBUG bench build --app new_airplane_mode
+2024-09-13 21:07:09,999 INFO /usr/local/bin/bench build --app new_airplane_mode
+2024-09-13 21:07:11,059 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-13 21:07:12,787 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-13 21:08:28,196 INFO /usr/local/bin/bench --site Airplane_mode install-app frappe
+2024-09-13 21:09:59,703 INFO /usr/local/bin/bench --site Airplane_mode install-app New_Airplane_mode
+2024-09-13 21:10:49,421 INFO /usr/local/bin/bench --site Airplane_mode install-app New_Airplane_mode
+2024-09-13 21:12:16,906 INFO /usr/local/bin/bench --site Airplane_mode install-app New_Airplane_mode
+2024-09-13 21:12:50,609 INFO /usr/local/bin/bench --site Airplane_mode install-app new_Airplane_mode
+2024-09-13 21:13:40,549 INFO /usr/local/bin/bench --site Airplane_mode install-app new_airplane_mode
+2024-09-13 21:14:21,475 INFO /usr/local/bin/bench use Airplane_mode
+2024-09-13 21:15:22,610 INFO /usr/local/bin/bench use Airplane_mode
+2024-09-13 21:15:50,579 INFO /usr/local/bin/bench start
+2024-09-13 21:17:17,564 INFO /usr/local/bin/bench start
+2024-09-13 21:17:17,761 INFO /usr/local/bin/bench watch
+2024-09-13 21:17:17,764 INFO /usr/local/bin/bench worker
+2024-09-13 21:17:17,793 INFO /usr/local/bin/bench serve --port 8002
+2024-09-13 21:17:17,802 INFO /usr/local/bin/bench schedule
+2024-09-14 10:33:55,624 INFO /usr/local/bin/bench start
+2024-09-14 10:33:56,148 INFO /usr/local/bin/bench watch
+2024-09-14 10:33:56,164 INFO /usr/local/bin/bench schedule
+2024-09-14 10:33:56,233 INFO /usr/local/bin/bench serve --port 8002
+2024-09-14 10:33:56,280 INFO /usr/local/bin/bench worker
+2024-09-14 12:00:01,996 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-14 18:00:01,243 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-14 20:43:19,516 INFO /usr/local/bin/bench start
+2024-09-14 20:43:19,708 INFO /usr/local/bin/bench schedule
+2024-09-14 20:43:19,709 INFO /usr/local/bin/bench worker
+2024-09-14 20:43:19,748 INFO /usr/local/bin/bench serve --port 8002
+2024-09-14 20:43:19,748 INFO /usr/local/bin/bench watch
+2024-09-14 21:02:16,170 INFO /usr/local/bin/bench use mysite
+2024-09-14 21:02:22,572 INFO /usr/local/bin/bench start
+2024-09-14 21:02:22,790 INFO /usr/local/bin/bench worker
+2024-09-14 21:02:22,790 INFO /usr/local/bin/bench schedule
+2024-09-14 21:02:22,828 INFO /usr/local/bin/bench serve --port 8002
+2024-09-14 21:02:22,828 INFO /usr/local/bin/bench watch
+2024-09-16 12:00:01,453 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-17 11:31:43,613 INFO /usr/local/bin/bench --site irfan.cabs migrate
+2024-09-17 12:00:02,101 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-18 12:00:01,970 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-18 15:11:36,970 INFO /usr/local/bin/bench start
+2024-09-18 15:12:41,201 INFO /usr/local/bin/bench start
+2024-09-18 15:12:41,387 INFO /usr/local/bin/bench watch
+2024-09-18 15:12:41,388 INFO /usr/local/bin/bench schedule
+2024-09-18 15:12:41,425 INFO /usr/local/bin/bench serve --port 8002
+2024-09-18 15:12:41,430 INFO /usr/local/bin/bench worker
+2024-09-18 18:00:01,197 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-18 21:28:04,343 INFO /usr/local/bin/bench start
+2024-09-18 21:28:04,534 INFO /usr/local/bin/bench worker
+2024-09-18 21:28:04,542 INFO /usr/local/bin/bench schedule
+2024-09-18 21:28:04,558 INFO /usr/local/bin/bench serve --port 8002
+2024-09-18 21:28:04,570 INFO /usr/local/bin/bench watch
+2024-09-18 21:44:34,416 INFO /usr/local/bin/bench start
+2024-09-18 21:44:34,615 INFO /usr/local/bin/bench schedule
+2024-09-18 21:44:34,621 INFO /usr/local/bin/bench watch
+2024-09-18 21:44:34,649 INFO /usr/local/bin/bench serve --port 8002
+2024-09-18 21:44:34,656 INFO /usr/local/bin/bench worker
+2024-09-19 09:38:45,752 INFO /usr/local/bin/bench start
+2024-09-19 09:38:45,945 INFO /usr/local/bin/bench watch
+2024-09-19 09:38:45,970 INFO /usr/local/bin/bench worker
+2024-09-19 09:38:45,975 INFO /usr/local/bin/bench serve --port 8002
+2024-09-19 09:38:45,990 INFO /usr/local/bin/bench schedule
+2024-09-19 10:43:03,538 INFO /usr/local/bin/bench --site irfan.cabs mariadb
+2024-09-19 10:44:09,459 INFO /usr/local/bin/bench --site mysite mariadb
+2024-09-19 12:00:01,940 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-19 14:57:47,991 INFO /usr/local/bin/bench --site mysite console
+2024-09-19 20:32:22,605 INFO /usr/local/bin/bench start
+2024-09-19 20:33:48,483 INFO /usr/local/bin/bench start
+2024-09-19 20:33:48,695 INFO /usr/local/bin/bench serve --port 8002
+2024-09-19 20:33:48,700 INFO /usr/local/bin/bench schedule
+2024-09-19 20:33:48,725 INFO /usr/local/bin/bench watch
+2024-09-19 20:33:48,742 INFO /usr/local/bin/bench worker
+2024-09-20 10:02:09,409 INFO /usr/local/bin/bench --site mysite console
+2024-09-20 10:12:40,324 INFO /usr/local/bin/bench --site mysite console
+2024-09-20 10:14:29,036 INFO /usr/local/bin/bench --site mysite console
+2024-09-20 12:00:01,540 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-21 09:51:00,974 INFO /usr/local/bin/bench start
+2024-09-21 09:51:01,504 INFO /usr/local/bin/bench serve --port 8002
+2024-09-21 09:51:01,508 INFO /usr/local/bin/bench watch
+2024-09-21 09:51:01,651 INFO /usr/local/bin/bench schedule
+2024-09-21 09:51:01,666 INFO /usr/local/bin/bench worker
+2024-09-21 12:46:48,203 INFO /usr/local/bin/bench start
+2024-09-21 12:46:48,405 INFO /usr/local/bin/bench worker
+2024-09-21 12:46:48,409 INFO /usr/local/bin/bench schedule
+2024-09-21 12:46:48,428 INFO /usr/local/bin/bench watch
+2024-09-21 12:46:48,444 INFO /usr/local/bin/bench serve --port 8002
+2024-09-21 12:54:49,852 INFO /usr/local/bin/bench --mysite mariadb
+2024-09-21 12:55:02,603 INFO /usr/local/bin/bench --site mysite mariadb
+2024-09-21 14:30:52,552 INFO /usr/local/bin/bench --site mysite mariadb
+2024-09-22 00:00:01,659 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-23 10:00:49,148 INFO /usr/local/bin/bench start
+2024-09-23 10:00:49,341 INFO /usr/local/bin/bench serve --port 8002
+2024-09-23 10:00:49,345 INFO /usr/local/bin/bench schedule
+2024-09-23 10:00:49,379 INFO /usr/local/bin/bench watch
+2024-09-23 10:00:49,385 INFO /usr/local/bin/bench worker
+2024-09-23 12:00:01,700 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-24 11:59:53,464 INFO /usr/local/bin/bench start
+2024-09-24 11:59:53,659 INFO /usr/local/bin/bench schedule
+2024-09-24 11:59:53,661 INFO /usr/local/bin/bench worker
+2024-09-24 11:59:53,688 INFO /usr/local/bin/bench serve --port 8002
+2024-09-24 11:59:53,693 INFO /usr/local/bin/bench watch
+2024-09-24 12:00:01,688 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-25 00:00:01,572 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-25 10:14:09,158 INFO /usr/local/bin/bench start
+2024-09-25 10:14:58,368 INFO /usr/local/bin/bench start
+2024-09-25 10:14:58,581 INFO /usr/local/bin/bench watch
+2024-09-25 10:14:58,586 INFO /usr/local/bin/bench schedule
+2024-09-25 10:14:58,623 INFO /usr/local/bin/bench worker
+2024-09-25 10:14:58,624 INFO /usr/local/bin/bench serve --port 8002
+2024-09-25 12:00:01,651 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-26 12:00:01,392 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-27 12:00:01,204 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-28 10:01:05,965 INFO /usr/local/bin/bench start
+2024-09-28 10:01:06,194 INFO /usr/local/bin/bench worker
+2024-09-28 10:01:06,202 INFO /usr/local/bin/bench watch
+2024-09-28 10:01:06,220 INFO /usr/local/bin/bench schedule
+2024-09-28 10:01:06,235 INFO /usr/local/bin/bench serve --port 8002
+2024-09-28 10:25:55,345 INFO /usr/local/bin/bench --site Airplane_mode mariadb
+2024-09-28 10:51:04,765 INFO /usr/local/bin/bench --site Airplane_mode mariadb
+2024-09-30 18:00:02,153 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-30 18:13:50,773 INFO /usr/local/bin/bench start
+2024-09-30 18:13:51,370 INFO /usr/local/bin/bench schedule
+2024-09-30 18:13:51,395 INFO /usr/local/bin/bench serve --port 8002
+2024-09-30 18:13:51,504 INFO /usr/local/bin/bench watch
+2024-09-30 18:13:51,511 INFO /usr/local/bin/bench worker
+2024-09-30 18:14:45,412 INFO /usr/local/bin/bench get-app https://github.com/NagariaHussain/doppio
+2024-09-30 18:14:45,435 LOG Getting doppio
+2024-09-30 18:14:45,435 DEBUG cd ./apps && git clone https://github.com/NagariaHussain/doppio  --depth 1 --origin upstream
+2024-09-30 18:14:46,904 LOG Installing doppio
+2024-09-30 18:14:46,904 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/doppio 
+2024-09-30 18:14:50,542 DEBUG cd /home/urmila/new-bench/apps/doppio && yarn install --check-files
+2024-09-30 18:14:59,883 DEBUG bench build --app doppio
+2024-09-30 18:15:00,147 INFO /usr/local/bin/bench build --app doppio
+2024-09-30 18:15:03,982 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-30 18:15:04,591 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-30 18:17:00,921 INFO /usr/local/bin/bench add-frappe-ui
+2024-10-01 11:03:47,552 INFO /usr/local/bin/bench start
+2024-10-01 11:05:23,296 INFO /usr/local/bin/bench start
+2024-10-01 11:05:23,501 INFO /usr/local/bin/bench watch
+2024-10-01 11:05:23,515 INFO /usr/local/bin/bench schedule
+2024-10-01 11:05:23,542 INFO /usr/local/bin/bench worker
+2024-10-01 11:05:23,543 INFO /usr/local/bin/bench serve --port 8002
+2024-10-01 12:00:01,956 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-02 00:00:06,591 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-02 00:01:16,394 INFO /usr/local/bin/bench start
+2024-10-02 00:02:45,243 INFO /usr/local/bin/bench start
+2024-10-02 00:02:45,447 INFO /usr/local/bin/bench serve --port 8002
+2024-10-02 00:02:45,447 INFO /usr/local/bin/bench schedule
+2024-10-02 00:02:45,490 INFO /usr/local/bin/bench watch
+2024-10-02 00:02:45,492 INFO /usr/local/bin/bench worker
+2024-10-02 12:00:01,821 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-03 12:00:01,700 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-03 12:59:02,812 INFO /usr/local/bin/bench start
+2024-10-03 12:59:03,000 INFO /usr/local/bin/bench watch
+2024-10-03 12:59:03,016 INFO /usr/local/bin/bench serve --port 8002
+2024-10-03 12:59:03,031 INFO /usr/local/bin/bench worker
+2024-10-03 12:59:03,042 INFO /usr/local/bin/bench schedule
+2024-10-05 11:33:55,840 INFO /usr/local/bin/bench start
+2024-10-05 11:33:56,032 INFO /usr/local/bin/bench schedule
+2024-10-05 11:33:56,045 INFO /usr/local/bin/bench watch
+2024-10-05 11:33:56,069 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 11:33:56,073 INFO /usr/local/bin/bench worker
+2024-10-05 11:36:05,928 INFO /usr/local/bin/bench new-app ExpenseManager
+2024-10-05 11:36:05,932 LOG creating new app expensemanager
+2024-10-05 11:39:34,186 LOG Installing expensemanager
+2024-10-05 11:39:34,187 DEBUG cd /home/urmila/new-bench && /home/urmila/new-bench/env/bin/python -m pip install --quiet --upgrade -e /home/urmila/new-bench/apps/expensemanager 
+2024-10-05 11:39:35,591 DEBUG bench build --app expensemanager
+2024-10-05 11:39:35,661 INFO /usr/local/bin/bench build --app expensemanager
+2024-10-05 11:39:36,758 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-05 11:39:36,961 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 11:43:04,099 INFO /usr/local/bin/bench --site mtsite install-app ExpenseManager
+2024-10-05 11:43:14,838 INFO /usr/local/bin/bench --site mysite install-app ExpenseManager
+2024-10-05 11:43:33,972 INFO /usr/local/bin/bench --site mysite install-app expensemanager
+2024-10-05 11:54:43,317 INFO /usr/local/bin/bench use
+2024-10-05 11:57:25,219 INFO /usr/local/bin/bench use mysite.local
+2024-10-05 12:00:01,335 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-05 12:00:55,005 INFO /usr/local/bin/bench start
+2024-10-05 12:01:45,804 INFO /usr/local/bin/bench start
+2024-10-05 12:01:46,001 INFO /usr/local/bin/bench schedule
+2024-10-05 12:01:46,009 INFO /usr/local/bin/bench worker
+2024-10-05 12:01:46,037 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 12:01:46,043 INFO /usr/local/bin/bench watch
+2024-10-05 14:15:54,797 INFO /usr/local/bin/bench --site mysite mariadb
+2024-10-05 15:59:02,687 INFO /usr/local/bin/bench start
+2024-10-05 15:59:02,927 INFO /usr/local/bin/bench watch
+2024-10-05 15:59:02,938 INFO /usr/local/bin/bench worker
+2024-10-05 15:59:02,950 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 15:59:02,964 INFO /usr/local/bin/bench schedule
+2024-10-05 17:03:27,398 INFO /usr/local/bin/bench build
+2024-10-05 17:03:55,477 INFO /usr/local/bin/bench start
+2024-10-05 17:03:55,671 INFO /usr/local/bin/bench watch
+2024-10-05 17:03:55,673 INFO /usr/local/bin/bench worker
+2024-10-05 17:03:55,712 INFO /usr/local/bin/bench schedule
+2024-10-05 17:03:55,713 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 17:04:09,953 INFO /usr/local/bin/bench start
+2024-10-05 17:04:10,121 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 17:04:10,121 INFO /usr/local/bin/bench schedule
+2024-10-05 17:04:10,167 INFO /usr/local/bin/bench watch
+2024-10-05 17:04:10,168 INFO /usr/local/bin/bench worker
+2024-10-05 17:17:42,978 INFO /usr/local/bin/bench migrate
+2024-10-05 17:17:57,580 INFO /usr/local/bin/bench start
+2024-10-05 17:17:57,756 INFO /usr/local/bin/bench schedule
+2024-10-05 17:17:57,757 INFO /usr/local/bin/bench worker
+2024-10-05 17:17:57,797 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 17:17:57,800 INFO /usr/local/bin/bench watch
+2024-10-05 17:23:35,941 INFO /usr/local/bin/bench build
+2024-10-05 17:23:58,995 INFO /usr/local/bin/bench start
+2024-10-05 17:23:59,199 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 17:23:59,201 INFO /usr/local/bin/bench schedule
+2024-10-05 17:23:59,233 INFO /usr/local/bin/bench worker
+2024-10-05 17:23:59,241 INFO /usr/local/bin/bench watch
+2024-10-05 17:31:30,126 INFO /usr/local/bin/bench clear-cache
+2024-10-05 17:31:47,636 INFO /usr/local/bin/bench start
+2024-10-05 17:31:47,831 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 17:31:47,839 INFO /usr/local/bin/bench watch
+2024-10-05 17:31:47,858 INFO /usr/local/bin/bench worker
+2024-10-05 17:31:47,878 INFO /usr/local/bin/bench schedule
+2024-10-05 23:24:38,142 INFO /usr/local/bin/bench start
+2024-10-05 23:25:21,104 INFO /usr/local/bin/bench start
+2024-10-05 23:25:21,296 INFO /usr/local/bin/bench worker
+2024-10-05 23:25:21,306 INFO /usr/local/bin/bench serve --port 8002
+2024-10-05 23:25:21,326 INFO /usr/local/bin/bench watch
+2024-10-05 23:25:21,339 INFO /usr/local/bin/bench schedule
+2024-10-06 00:00:01,367 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-06 11:16:34,343 INFO /usr/local/bin/bench --site mysite migrate
+2024-10-06 18:00:01,630 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-06 18:08:50,660 INFO /usr/local/bin/bench start
+2024-10-06 18:08:50,867 INFO /usr/local/bin/bench schedule
+2024-10-06 18:08:50,876 INFO /usr/local/bin/bench worker
+2024-10-06 18:08:50,907 INFO /usr/local/bin/bench serve --port 8002
+2024-10-06 18:08:50,908 INFO /usr/local/bin/bench watch
+2024-10-08 12:00:01,490 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-08 18:00:01,468 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-08 19:42:20,352 INFO /usr/local/bin/bench start
+2024-10-08 19:42:20,551 INFO /usr/local/bin/bench schedule
+2024-10-08 19:42:20,555 INFO /usr/local/bin/bench serve --port 8002
+2024-10-08 19:42:20,593 INFO /usr/local/bin/bench worker
+2024-10-08 19:42:20,597 INFO /usr/local/bin/bench watch
+2024-10-09 00:00:01,582 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-09 12:00:01,297 INFO /usr/local/bin/bench --verbose --site all backup

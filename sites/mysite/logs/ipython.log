@@ -1,0 +1,19 @@
+2024-08-03 14:37:28,626 INFO ipython === bench console session ===
+2024-08-03 14:37:28,626 INFO ipython frappe.db.get_value("driver", "DR-001", "first_name")
+2024-08-03 14:37:28,626 INFO ipython frappe.db.get_value("Driver", "DR-001", "first_name")
+2024-08-03 14:37:28,626 INFO ipython frappe.db.get_value("Driver", "DR-002", "first_name")
+2024-08-03 14:37:28,627 INFO ipython frappe.get_doc("Driver", "DR-001")
+2024-08-03 14:37:28,627 INFO ipython D = frappe.get_doc("Driver", "DR-001")
+2024-08-03 14:37:28,627 INFO ipython D.first_name
+2024-08-03 14:37:28,627 INFO ipython D.last_name
+2024-08-03 14:37:28,627 INFO ipython D.license Number
+2024-08-03 14:37:28,627 INFO ipython D.license number
+2024-08-03 14:37:28,627 INFO ipython D.license_number
+2024-08-03 14:37:28,628 INFO ipython D.owner
+2024-08-03 14:37:28,628 INFO ipython D.creation
+2024-08-03 14:37:28,628 INFO ipython N = frappe.new_doc("Driver")
+2024-08-03 14:37:28,628 INFO ipython N.first_name="Yuvraj"
+2024-08-03 14:37:28,628 INFO ipython N.last_name ="Singh"
+2024-08-03 14:37:28,628 INFO ipython N.license_number="26082022"
+2024-08-03 14:37:28,629 INFO ipython N.save()
+2024-08-03 14:37:28,629 INFO ipython === session end ===

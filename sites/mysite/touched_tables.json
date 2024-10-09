@@ -1,0 +1,20 @@
+[
+    "tabDocField",
+    "tabDocType",
+    "tabTask",
+    "tabDriver",
+    "tabAirline",
+    "tabAirplane_Ticket",
+    "tabVoter",
+    "tabRole",
+    "tabDocPerm",
+    "tabDocType Link",
+    "tabDocType State",
+    "tabDocType Action",
+    "tabTag",
+    "tabTag Link",
+    "tabVehicle",
+    "tabExpense Claim",
+    "tabExpense",
+    "tabAirplane"
+]

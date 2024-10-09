@@ -1,0 +1,71 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "rentals": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "56024074657c9bd7e5cc81dbcb10917ff3ea1cd3",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "airplane_mode": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "189accbe9c932d23e6726eef0d8496834e019261",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "interview_management_system": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "923950d2ff1a8c13e4fc8a3b1bff84219bd4145f",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    },
+    "new_airplane_mode": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "b816e88a6be9297b6079396ca971544e4dd36bab",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "doppio": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "74553e578ba6467512008d67bece82de34324471",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    },
+    "expensemanager": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "a78e0023b73220a6d5367b80aae4297bff7d1153",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
+    }
+}
